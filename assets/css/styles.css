@@ -603,6 +603,12 @@ img {
   padding: .25rem .5rem .5rem 0;
 }
 
+.contact__mail {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 /*==================== FOOTER ====================*/
 
 .footer {
@@ -752,6 +758,7 @@ img {
 
   .section__details {
     padding: 1rem;
+    padding-top: 0;
   }
 
 }
@@ -767,10 +774,6 @@ img {
 
   section {
     padding: 6rem 0 2rem;
-  }
-
-  .section__subtitle {
-    margin-bottom: 4rem;
   }
 
   .header {
